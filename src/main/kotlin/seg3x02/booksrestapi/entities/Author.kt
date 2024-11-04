@@ -9,7 +9,6 @@ class Author {
     var id: Long = 0
     var firstName: String = ""
     var lastName: String = ""
-    var bio: String = ""
 
     @ManyToMany
     var books: MutableList<Book> = ArrayList()
